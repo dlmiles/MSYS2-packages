@@ -3,8 +3,8 @@
 
 pkgbase=tcl
 pkgname=('tcl' 'tcl-devel' 'tcl-doc')
-pkgver=8.6.12
-pkgrel=3
+pkgver=8.6.17
+pkgrel=1
 pkgdesc="The Tcl scripting language"
 arch=('i686' 'x86_64')
 url="https://tcl.sourceforge.io/"
@@ -18,7 +18,7 @@ makedepends=('autotools' 'gcc')
 options=('staticlibs')
 source=(https://downloads.sourceforge.net/sourceforge/tcl/tcl${pkgver}-src.tar.gz
         tcl-8.6.12-1.src.patch)
-sha256sums=('26c995dd0f167e48b11961d891ee555f680c175f7173ff8cb829f4ebcde4c1a6'
+sha256sums=('a3903371efcce8a405c5c245d029e9f6850258a60fa3761c4d58995610949b31'
             '322c7e17c63249fc5f6b0d89b1c77fa67406aa91f44efa4964be3f75bb271568')
 
 prepare() {
